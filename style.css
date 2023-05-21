@@ -49,6 +49,14 @@ body {
 
 /* Styles for mobile devices */
 @media screen and (max-width: 480px) {
+  .meme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
   .meme-container img {
     height: auto;
     max-width: 100%;
